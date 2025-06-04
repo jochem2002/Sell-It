@@ -43,6 +43,15 @@
               ]"
             >Spelertjes</NuxtLink>
           </li>
+          <li>
+            <NuxtLink
+              to="/uitleg"
+              :class="[
+                'transition duration-200',
+                route.path === '/uitleg' ? 'font-bold text-indigo-200' : 'hover:underline hover:text-indigo-200 active:scale-95'
+              ]"
+            >Uitleg</NuxtLink>
+          </li>
         </ul>
       </UContainer>
       <transition name="menu-fade">

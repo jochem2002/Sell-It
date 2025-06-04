@@ -8,13 +8,14 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.4.6",
-    "@nuxthq/ui": "latest",
-    "dayjs": "^1.11.9",
-    "lottie-web": "^5.10.2",
-    "nuxt": "^3.10.0",
-    "pinia-plugin-persistedstate": "^2.4.0",
-    "vue3-lottie": "^2.0.3"
+    "@nuxthq/ui": "^2.7.0",
+    "@pinia/nuxt": "^0.11.1",
+    "dayjs": "^1.11.13",
+    "lottie-web": "^5.13.0",
+    "nuxt": "^3.17.5",
+    "pinia": "^3.0.3",
+    "pinia-plugin-persistedstate": "^4.3.0",
+    "vue3-lottie": "^3.3.1"
   },
   "devDependencies": {
     "@types/node": "^20.4.2",

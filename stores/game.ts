@@ -8,7 +8,7 @@ export const useGameStore = defineStore('game', {
         words: [
             'Glibber Poes', 'Opblaas kip', 'VissenPijper', 'omaWerper',
             'Rotstraal', 'Scheldboer', 'Mocro', 'Ling-Pong', 'SuperSnitch',
-            'Cursus', 'Porkel', 'Neusaarappel', '莓果魚'
+            'Cursus', 'Porkel', 'Neusaarappel', '莓果魚', 'Lubbes'
         ]
     }),
     actions: {

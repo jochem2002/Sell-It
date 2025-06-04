@@ -10,6 +10,7 @@
   "dependencies": {
     "@nuxthq/ui": "^2.7.0",
     "@pinia/nuxt": "^0.11.1",
+    "canvas-confetti": "^1.9.3",
     "dayjs": "^1.11.13",
     "lottie-web": "^5.13.0",
     "nuxt": "^3.17.5",

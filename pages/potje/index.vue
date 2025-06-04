@@ -7,11 +7,13 @@
     </div>
     <div v-else>
       <h2>Speler aan de beurt: {{ huidigeSpeler }}</h2>
-      <button class="btn" @click="draai">Draai aan het rad</button>
+      <RadVanWoorden />
     </div>
   </div>
 </template>
+
 <script setup lang="ts">
+import RadVanWoorden from '@/components/RadVanWoorden.vue'
 const game = useGameStore()
 const players = usePlayerStore()
 const aantalRondes = ref(1)
@@ -20,11 +22,6 @@ const spelGestart = computed(() => game.players.length > 0)
 const start = () => {
   game.setPlayers(players.list.map(p => p.name))
   game.setRounds(aantalRondes.value)
-}
-const draai = () => {
-  game.nextTurn()
-  alert(`${game.word}`)
-  navigateTo('/potje/presenteer')
 }
 const huidigeSpeler = computed(() => game.players[game.currentTurn % game.players.length])
 </script>

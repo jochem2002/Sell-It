@@ -2,7 +2,7 @@
   "name": "potje-verkopen",
   "version": "1.0.0",
   "scripts": {
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --port 7000",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"

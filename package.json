@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.6",
+    "@nuxthq/ui": "latest",
     "dayjs": "^1.11.9",
     "lottie-web": "^5.10.2",
     "nuxt": "^3.10.0",
-    "nuxt-ui": "latest",
     "pinia-plugin-persistedstate": "^2.4.0",
     "vue3-lottie": "^2.0.3"
   },
